@@ -1,6 +1,7 @@
 
 body{
 	width: 1500px;
+	height: 100vh;
 }
 h2, li, nav{
 	margin: 0;
