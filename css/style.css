@@ -15,6 +15,7 @@ a{
 .pro-wrapper{
 	background-size: cover;
 	background: url(http://via.placeholder.com/20x20/eeeeee/eeeeee);
+
 }
 /**************first******************/
 .first-sec{
@@ -44,6 +45,7 @@ a{
 	font-size: 18px;
 	line-height: 27px;
 	letter-spacing: .025em;
+		position: relative;
 
 }
 .fs-pro-nav{
@@ -56,6 +58,7 @@ a{
 	padding-right: 50px;	
 	background-color: #eeeeee;	
 }
+
 .fs-pro-list-link:hover{
 	color: red;
 	transition: ease .5s color;
@@ -69,8 +72,9 @@ a{
 
 .fs-pro-block{
 	padding-top: 120px;
+	background: radial-gradient(ellipse farthest-side at 900px 350px, #fff , #eeeeee 90%);
 }
-.fs-text-block{
+.fs-text-block{ 	
 	display: inline-block;
 	width: 520px;
 	height: 460px;
@@ -117,6 +121,8 @@ a{
 .head>img{
 	width: 100%;
 	height: auto;
+
+
 	/*padding: 50px;*/
 }
 .dotts{
@@ -184,17 +190,19 @@ a{
 	padding: 70px;
 	justify-content: space-between;
 	align-content: space-between;
+	/*padding-bottom: 100%;*/
 }
 
 .flex-item{
 	margin-right: 20px;
 	margin-bottom: 20px;
+	/*background-color: #E10011;*/
 }
 
 .flex-item img{
 	width: 100%;
 	height: auto;
-}
+}	
 
 .wrap{
 	display: none;
@@ -328,3 +336,5 @@ a{
 	span	{
 		color: #5F5F5F;
 	}
+	/*****************************/
+
