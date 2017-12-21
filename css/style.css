@@ -93,6 +93,9 @@ a{
 	margin: 0;	
 	color: #303030;
 }
+.fs-title:hover{
+	cursor: pointer;
+}
 .fs-title-text{
 	font-family: Roboto, sans-serif;
 	font-size: 24px;
@@ -128,6 +131,9 @@ a{
 .dotts{
 	text-align: center;
 	margin: 90px 0;
+}
+.dotts:hover{
+	cursor: pointer;
 }
 .sss{
 	width: 13px;
